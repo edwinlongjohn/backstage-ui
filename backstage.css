@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F15524;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+/* Header styles */
+header{
+    padding: 20px;
+}
+.logo{
+    width: 260px;
+}
+
+/* styling issues sections */
+section{
+    margin: 10px;
+    text-align: center;
+}
+
+section.issue img{
+    width: 420px;
+}
+
+section.issue .issue-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+section.issue .cta{
+    margin: 25px;
+}
+section.issue .cta a{
+    text-decoration: none;
+    color: #fff;
+    font-size:15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+section.issue .cta a:hover{
+    text-decoration: underline;
+}
+
+section.issue .selected{
+    font-weight: bold;
+}
+section.issue .selected a{
+    text-decoration: none;
+    color: #fff;
+    font-size:15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+section.issue .selected a:hover{
+    text-decoration: underline;
+}
+
+/* styling footer */
+.description{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 15px;
+    color: #251d20;
+}
+
+.copyright{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+}
+footer a{
+    color: #251d20;
+    transition: all 0.3s ease;
+}
+
+footer a:hover{
+    color: #251d20;
+    text-decoration: none;
+}
+
+.contact{
+   font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 15px;  
+    color: #251d20;
+    padding:230px 0px 0px 750px;
+}
